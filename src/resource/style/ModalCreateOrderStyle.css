@@ -1,0 +1,184 @@
+.css-13v5s4k {
+  height: auto !important;
+}
+.order-title {
+  color: #202124;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 23.44px !important;
+  margin-bottom: 10px !important;
+}
+
+.tab-wrapper {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  margin-top: 2px;
+}
+
+.tab-wrapper-mobile {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  margin-top: 2px;
+}
+
+.tab-list-mobile {
+  white-space: nowrap;
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between !important;
+  min-height: 35px !important;
+  overflow-x: auto !important;
+}
+
+.custom-tab-panel {
+  width: 100% !important;
+}
+
+.custom-tab-panel-mobile {
+  width: 100%;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: space-between !important;
+  min-height: 35px !important;
+}
+
+.button-tab {
+  font-size: 14px !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+  width: 220.67px !important;
+  height: 35px !important;
+  border-radius: 8px 8px 0px 0px !important;
+  min-height: 35px !important;
+  padding: 10px !important;
+  white-space: nowrap !important;
+}
+
+.btn-tab-material-private{
+  width: 32.8% !important;
+}
+
+.button-tab-selected {
+  font-weight: 700 !important;
+  background-color: #1e5bf0 !important;
+  color: white !important;
+}
+
+.button-tab-unselected {
+  font-weight: 400 !important;
+  background-color: #f3f7ff !important;
+}
+
+select:required:invalid {
+  color: gray;
+}
+
+.text-12px {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+.radio-text {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+.radio-text-productionMethod {
+  font-size: 12px !important;
+}
+
+.radio-wrapper {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  margin-left: 33px;
+}
+
+.css-t36e2n-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 0 !important;
+}
+
+.cancel-button {
+  margin-right: 8px;
+  width: 90px;
+  color: #202124;
+}
+
+.back-button {
+  margin-right: 8px;
+  width: 120px;
+  color: #202124;
+}
+
+.createButton {
+  background-color: #d9d9d9 !important;
+  color: #000000 !important;
+  margin-right: 20px !important;
+  width: 120px;
+}
+
+.createButton:hover {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+.preview-button {
+  width: 124px;
+  margin-left: 12px !important;
+}
+
+.bold-text {
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+}
+
+.text-input {
+  width: 271px !important;
+  border-radius: 8px !important;
+}
+
+.icon-checkbox {
+  color: #ffffff;
+  margin-right: 4px;
+  font-size: 18px !important;
+}
+
+.vip-background {
+  background-color: #f7c744 !important;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root:hover,
+.css-t36e2n-MuiButtonBase-root-MuiCheckbox-root:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.requiredTextField .MuiInputLabel-asterisk {
+  color: red;
+}
+
+.setPadding {
+  padding-left: 17px !important;
+  padding-right: 17px !important;
+  padding-top: 17px !important;
+}
+
+.textFieldWithSelect .MuiSelect-icon {
+  top: 35% !important;
+  right: 8px !important;
+}
+
+.tab-wrapper MuiBox-root css-0 {
+  height: 35px !important;
+}
+
+.order-container {
+  padding: 0 !important;
+  height: auto !important;
+}
+
+.tab-panel-content {
+  overflow-y: auto !important;
+  max-height: 500px !important;
+  overflow-x: hidden !important;
+}

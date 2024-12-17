@@ -1,0 +1,207 @@
+.calendarResourceManagement .custom-content {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    left: 30px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #1E88E5;
+}
+.calendarResourceManagement .custom-contentS2 {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    left: 50px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #1E88E5;
+}
+.calendarResourceManagement .custom-contentC1 {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    left: 30px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #4CB050;
+}
+.calendarResourceManagement .custom-contentC2 {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    left: 50px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #4CB050;
+}
+.calendarResourceManagement .custom-contentP {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.calendarResourceManagement .react-calendar {
+    width: 350px;
+    background: white;
+    border: 1px solid #a0a096;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+}
+
+.calendarResourceManagement .react-calendar--doubleView {
+    width: 700px;
+}
+
+.calendarResourceManagement .react-calendar--doubleView .react-calendar__viewContainer {
+    display: flex;
+    margin: -0.5em;
+}
+
+.calendarResourceManagement .react-calendar--doubleView .react-calendar__viewContainer > * {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.calendarResourceManagement .react-calendar,
+.calendarResourceManagement .react-calendar *,
+.calendarResourceManagement .react-calendar *:before,
+.calendarResourceManagement .react-calendar *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.calendarResourceManagement .react-calendar button {
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.calendarResourceManagement .react-calendar button:enabled:hover {
+    cursor: pointer;
+}
+
+.calendarResourceManagement .react-calendar__navigation {
+    display: flex;
+    height: 44px;
+    margin-bottom: 1em;
+}
+
+.calendarResourceManagement .react-calendar__navigation button {
+    min-width: 44px;
+    background: none;
+}
+
+.calendarResourceManagement .react-calendar__navigation button:disabled {
+    background-color: #f0f0f0;
+}
+
+.calendarResourceManagement .react-calendar__navigation button:enabled:hover,
+.calendarResourceManagement .react-calendar__navigation button:enabled:focus {
+    background-color: #e6e6e6;
+}
+
+.calendarResourceManagement .react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font: inherit;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.calendarResourceManagement .react-calendar__month-view__weekdays__weekday {
+    padding: 0.5em;
+}
+
+.calendarResourceManagement .react-calendar__month-view__weekNumbers .react-calendar__tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.calendarResourceManagement .react-calendar__month-view__days__day--weekend {
+    color: #d10000;
+}
+
+.calendarResourceManagement .react-calendar__month-view__days__day--neighboringMonth,
+.calendarResourceManagement .react-calendar__decade-view__years__year--neighboringDecade,
+.calendarResourceManagement .react-calendar__century-view__decades__decade--neighboringCentury {
+    color: #757575;
+}
+
+.calendarResourceManagement .react-calendar__year-view .react-calendar__tile,
+.calendarResourceManagement .react-calendar__decade-view .react-calendar__tile,
+.calendarResourceManagement .react-calendar__century-view .react-calendar__tile {
+    padding: 1.5em 0.5em;
+}
+
+.calendarResourceManagement .react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 6.6667px;
+    background: none;
+    color: black !important;
+    text-align: center;
+    line-height: 16px;
+    font: inherit;
+    font-size: 0.833em;
+}
+
+.calendarResourceManagement .react-calendar__tile:disabled {
+    background-color: #f0f0f0;
+    color: #ababab;
+}
+
+.calendarResourceManagement .react-calendar__month-view__days__day--neighboringMonth:disabled,
+.calendarResourceManagement .react-calendar__decade-view__years__year--neighboringDecade:disabled,
+.calendarResourceManagement .react-calendar__century-view__decades__decade--neighboringCentury:disabled {
+    color: #cdcdcd;
+}
+
+.calendarResourceManagement .react-calendar__tile:enabled:hover,
+.calendarResourceManagement .react-calendar__tile:enabled:focus {
+    background-color: #e6e6e6;
+}
+
+.calendarResourceManagement .react-calendar__tile--now {
+    background: white;
+}
+
+.calendarResourceManagement .react-calendar__tile--now:enabled:hover,
+.calendarResourceManagement .react-calendar__tile--now:enabled:focus {
+    background: #e6e6e6;
+}
+
+.calendarResourceManagement .react-calendar__tile--hasActive {
+    background: #76baff;
+}
+
+.calendarResourceManagement .react-calendar__tile--hasActive:enabled:hover,
+.calendarResourceManagement .react-calendar__tile--hasActive:enabled:focus {
+    background: #a9d4ff;
+}
+
+.calendarResourceManagement .react-calendar__tile--active {
+    background: white!important;
+    color:black !important;
+}
+
+.calendarResourceManagement .react-calendar__tile--active:enabled:hover,
+.calendarResourceManagement .react-calendar__tile--active:enabled:focus {
+    background: #1087ff;
+}
+
+.calendarResourceManagement .react-calendar--selectRange .react-calendar__tile--hover {
+    background-color: #e6e6e6;
+}
+.calendarResourceManagement .react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+

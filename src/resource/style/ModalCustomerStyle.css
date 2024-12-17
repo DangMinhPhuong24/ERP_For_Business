@@ -1,0 +1,355 @@
+.modalButton {
+  background-color: #4369c5 !important;
+  color: #ffffff !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 34px !important;
+  line-height: 17.71px !important;
+}
+
+.modalButtonClick {
+  background-color: #1e5bf0 !important;
+  color: #ffffff !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 34px !important;
+  height: 34px !important;
+  line-height: 17.71px !important;
+}
+
+.buttonAction {
+  background-color: #4CB050 !important;
+  color: #ffffff !important;
+  padding: 4px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 34px !important;
+  line-height: 17.71px !important;
+}
+
+.modalButtonClick:disabled {
+  cursor: not-allowed !important;
+  background-color: #dde5f5 !important;
+  color: unset !important;
+}
+
+.modalTitle {
+  margin-bottom: 20px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 25.3px !important;
+  color: #202124 !important;
+}
+
+.requiredTextField .MuiInputLabel-asterisk {
+  color: red;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addIcon {
+  color: #1e5bf0;
+  top: 1000px !important;
+  cursor: pointer;
+}
+
+.removeIcon {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.confirmButton {
+  background-color: #1e5bf0 !important;
+  color: #ffffff !important;
+  width: 130px;
+  gap: 8px !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 37px !important;
+  line-height: 17.71px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.addButton {
+  background-color: #1e5bf0 !important;
+  color: #ffffff !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 34px !important;
+  height: 34px !important;
+  line-height: 17.71px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-Button {
+  margin-left: auto !important;
+  color: #aaaaaa !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 34px !important;
+  line-height: 17.71px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-decoration: underline !important;
+}
+
+.cancelButton {
+  color: #ff0000 !important;
+  background-color: #dde5f5 !important;
+  width: 130px;
+  margin-right: 20px !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 37px !important;
+  line-height: 17.71px !important;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  border: none !important;
+}
+
+.cancelClaimButton {
+  color: #ff0000 !important;
+  background-color: #dde5f5 !important;
+  width: 130px;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 37px !important;
+  line-height: 17.71px !important;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  border: none !important;
+}
+
+.closeButton {
+  color: #ff0000 !important;
+  background-color: #dde5f5 !important;
+  width: 130px;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 37px !important;
+  line-height: 17.71px !important;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  border: none !important;
+}
+
+.closeButton:hover {
+  color: #ffffff !important;
+  background-color: #f15e5e !important;
+}
+
+.backButton {
+  color: #252f4a !important;
+  background-color: #dde5f5 !important;
+  width: 130px;
+  margin-right: 20px !important;
+  padding: 6px 12px !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  min-height: 37px !important;
+  line-height: 17.71px !important;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  border: none !important;
+}
+
+.css-19h5k50 {
+  background-color: #ededed !important;
+}
+
+.inputLabel-search {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  color: #494949 !important;
+  margin-bottom: 4px !important;
+}
+
+.inputLabel-search-black {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  color: #202124 !important;
+  margin-bottom: 4px !important;
+}
+
+.custom-input-search {
+  border-radius: 8px !important;
+}
+.inputLabel-product,
+.inputLabel-modal {
+  margin-top: 12px !important;
+  margin-bottom: 2px !important;
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+  padding: 2px !important;
+}
+
+.inputLabel {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+  margin-bottom: 5px;
+}
+
+.inputLabel-noBottom {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+}
+
+.inputLabel-handbook {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+  margin-bottom: 4px !important;
+  margin-top: 5px !important;
+}
+
+.inputLabel-handbook-view {
+  font-size: 12px !important;
+  line-height: 15.18px !important;
+  font-weight: 700 !important;
+  color: #252f4a !important;
+  padding: 10px !important;
+  word-break: break-word !important;
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word !important;
+  display: block !important;
+  max-width: 100% !important;
+}
+
+.inputLabel-handbook-adress {
+  font-size: 12px !important;
+  line-height: 15.18px !important;
+  font-weight: 700 !important;
+  color: #252f4a !important;
+  margin-bottom: 4px !important;
+  margin-left: 10px !important;
+}
+
+.MuiAutocomplete-inputRoot {
+  font-size: 12px !important;
+  line-height: 15.18px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+  padding: 9px 20px 9px 10px !important;
+}
+
+
+.MuiInputBase-input {
+  font-size: 12px !important;
+  line-height: 15.18px !important;
+  padding: 9px 10px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+}
+
+
+.MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input,
+.MuiInputBase-multiline {
+  padding: 0 !important;
+}
+
+.MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input,
+.MuiTypography-root,
+.MuiTableCell-root,
+.MuiButtonBase-root,
+.MuiInputLabel-root,
+.MuiSelect-select,
+.MuiInputBase-input,
+.MuiInputBase-root,
+.MuiOutlinedInput-input {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
+
+.MuiAutocomplete-listbox,
+.MuiMenuItem-root,
+.MuiAutocomplete-noOptions {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-size: 12px !important;
+}
+
+.printQRButton {
+  background-color: #4369c5 !important;
+  color: #ffffff !important;
+  padding: 2px 10px !important;
+  text-transform: none !important;
+  border-radius: 3px !important;
+  min-height: 20px !important;
+  line-height: 17.71px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  width: 100px !important;
+  height: 28px !important;
+}
+
+.proposedButton {
+  background-color: #4369c5 !important;
+  color: #ffffff !important;
+  padding: 2px 10px !important;
+  text-transform: none !important;
+  border-radius: 3px !important;
+  min-height: 20px !important;
+  line-height: 17.71px !important;
+  margin-left: 8px !important;
+}
+
+.typography-propose {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 500 !important;
+}
+
+.title-detail-quotation {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-quotation {
+  margin-top: 8px !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  color: #202124 !important;
+}
+.content-quotation {
+  font-size: 10px !important;
+  white-space: pre-line !important;
+  text-align: center;
+  color: #202124 !important;
+}
+
+.left-align-text {
+  text-align: left !important;
+}
+
+.inputLabel-calendar {
+  font-size: 14px !important;
+  line-height: 17.71px !important;
+  font-weight: 400 !important;
+  color: #202124 !important;
+  margin-bottom: 4px !important;
+}

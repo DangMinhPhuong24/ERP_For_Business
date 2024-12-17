@@ -1,0 +1,43 @@
+@media (min-width:1400px) and (max-width:1440px) {
+    .action-customer-table{
+        width: 160px !important;
+    }
+    .chart-button{
+        font-size: 12px !important;
+        height: 24px !important;
+        width: 60px !important;
+        min-width: 0px !important;
+    }
+    .redSquare, .blueSquare{
+        width: 10px;
+        height: 10px;
+    }
+    .basic-info-box{
+        width: 426px !important;
+    }
+    .custom-action-buttons{
+        min-width: 68px !important;
+        padding: 0!important;
+    }
+    .custom-table-material{
+        width: 100px ;
+    }
+    .format{
+        width: 60px ;
+    }
+    .code-size{
+        width: 135px ;
+    }
+    .warehouse{
+        width: 105px;
+    }
+    .quatity-cost{
+        width: 80px;
+    }
+    .consumalble-cost{
+        width: 115px;
+    }
+}
+.button-action, .debtlimit-money{
+    text-align: center !important;
+}

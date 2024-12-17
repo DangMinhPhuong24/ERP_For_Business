@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
+
+@layer components {
+  .btn {
+    @apply px-2 py-0.5 hover:bg-opacity-90;
+  }
+  .btn-active {
+    @apply bg-green-600 dark:bg-blue-500 text-white uppercase;
+  }
+  .btn-inactive {
+    @apply bg-blue-100 text-gray-500 uppercase;
+  }
+}
+
+@layer utilities {
+  .full-viewport {
+    @apply flex flex-col w-full;
+    height: 100vh;
+    overflow: auto;
+  }
+  .bg-light {
+    @apply bg-white;
+  }
+  .bg-dark {
+    @apply bg-gray-700;
+  }
+}

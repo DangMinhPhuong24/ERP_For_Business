@@ -1,0 +1,27 @@
+.CustomTextField .MuiFilledInput-root {
+    background-color: #f5f7fa;
+    border-radius: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.CustomTextField .MuiFilledInput-root:hover {
+    background-color: #d9d8d8;
+}
+
+.CustomTextField .MuiFilledInput-root.Mui-focused {
+    background-color: #d9d8d8;
+}
+
+.CustomTextField .MuiInputAdornment-root {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.CustomTextField .MuiInputBase-input {
+    padding: 10px 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}

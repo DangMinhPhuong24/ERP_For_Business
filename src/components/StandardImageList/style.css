@@ -1,0 +1,28 @@
+.customer-handbook-image-item:hover {
+    cursor: pointer !important;
+}
+
+.customer-handbook-image {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.customer-handbook-image-detail {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain
+}
+
+.previous-button {
+    position: absolute !important;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%)
+}
+.next-button {
+    position: absolute !important;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}

@@ -1,0 +1,183 @@
+.error-message {
+    white-space: pre-line;
+}
+.centered-text {
+    text-align: center !important;
+}
+.custom-button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: inherit;
+    text-transform: inherit;
+}
+.MuiButtonBase-root.MuiButton-root.MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+    background-color: #BECEFF !important;
+    color: #2C339A !important;
+    border-radius: 16px !important;
+}
+
+.rs-picker-date .rs-input-group-addon{
+    color: black !important;
+}
+
+.custom-calendar{
+    width: 165px !important;
+}
+.custom-calendar .rs-input-group.rs-input-group-inside {
+    height: 24px !important;
+}
+
+.custom-calendar .rs-input{
+    padding: 7px 4px!important;
+}
+
+.custom-calendar .rs-input-group.rs-input-group-inside .rs-input{
+    color: black!important;
+    font-size: 10px !important;
+}
+.custom-calendar .rs-picker-label{
+    font-size: 10px !important;
+}
+
+.tabWarehouse{
+    min-height: 30px !important;
+}
+
+.button-tabs-Warehouse{
+    background-color: #DDE5F5 !important;
+    color: #252F4A !important;
+    padding: 10px !important;
+    text-transform: none !important;
+    border-radius: 8px 8px 0 0 !important;
+    gap: 10px !important;
+    min-height: 30px !important;
+    width: 150px!important;
+}
+
+.tabWarehouse .Mui-selected{
+    background-color: #1E5BF0 !important;
+    color: #FFFFFF !important;
+}
+
+.tabWarehouse .button-tab-order-small.Mui-selected,
+.tabWarehouse .button-tab-order-long.Mui-selected {
+    font-weight: 700 !important;
+}
+
+.tabWarehouse .button-tab-order-small:hover,
+.tabWarehouse .button-tab-order-long:hover {
+    font-weight: 700 !important;
+}
+
+.tabWarehouse .button-tab-order-small:not(.Mui-selected),
+.tabWarehouse .button-tab-order-long:not(.Mui-selected) {
+    font-weight: 400 !important;
+}
+
+.cancelButtonGlobal {
+    color: #FF0000 !important;
+    background-color: #DDE5F5 !important;
+    width: 108px;
+    margin-right: 20px!important;
+    padding: 6px 12px !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    min-height: 37px !important;
+    line-height: 17.71px !important;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 8px;
+    border: none!important;
+}
+
+.confirmButtonGlobal {
+    background-color: #1E5BF0 !important;
+    color: #FFFFFF !important;
+    width: 140px;
+    gap: 8px !important;
+    padding: 6px 12px !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    min-height: 37px !important;
+    line-height: 17.71px !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modalButtonGlobal {
+    background-color: #1E5BF0 !important;
+    color: #FFFFFF !important;
+    padding: 6px 12px !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    min-height: 34px !important;
+    line-height: 17.71px !important;
+}
+
+
+.disabled-cursor {
+    cursor: not-allowed !important;
+    opacity: 0.5!important;
+    pointer-events: unset !important;
+}
+
+
+.MuiChartsAxis-directionX .MuiChartsAxis-tickLabel tspan {
+    display:none
+}
+
+.MuiStepLabel-label{
+    font-size: 10px !important;
+    margin-top: 5px !important;
+
+}
+
+.custom-date-range-picker .rs-input{
+    text-align: center !important;
+}
+
+.headText{
+    font-size: 16px !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    line-height: 20.24px !important;
+    color: #4369C5 !important;
+}
+.MuiChartsAxis-root .MuiChartsAxis-label text,
+.MuiChartsLegend-root .MuiChartsLegend-series text {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-family: 'Be Vietnam Pro !important';
+    color: #000000 !important;
+    line-height: 1.5 !important;
+}
+
+.slick-prev,
+.slick-next{
+    border-radius: 10px !important;
+    background-color: #AAAAAA !important;
+}
+
+.Mui-disabled{
+    cursor: not-allowed !important;
+}
+
+.text-output-label{
+    color: #202124 !important;
+    font-size: 12px !important;
+    font-weight: 700!important;
+}
+
+.nextButtonGlobal {
+    background-color: #1E88E5 !important;
+    color: #FFFFFF !important;
+    gap: 4px !important;
+    padding: 6px 12px !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    font-weight: 500;
+}

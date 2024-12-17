@@ -1,0 +1,3 @@
+import CreateOrUpdateWarehouseImportOrder from './CreateOrUpdateWarehouseImportOrder'
+
+export default CreateOrUpdateWarehouseImportOrder

@@ -1,0 +1,36 @@
+.customer-handbook-date-picker .MuiInputBase-formControl {
+    border-radius: 8px !important;
+    width: 271px !important;
+    height: 35px !important;
+}
+
+.customer-handbook-tabpanel {
+    padding: 0px !important;
+    margin-top: 17px !important;
+}
+
+.width-input {
+    width: 271px !important;
+}
+
+.customer-handbook-group-product {
+    height: 36px !important;
+    display: flex !important;
+    align-items: center !important;
+    border: 1px solid rgba(0, 0, 0, 0.23) !important;
+    border-radius: 8px !important;
+    padding: 4px 8px !important;
+    overflow-x: auto !important;
+    gap: 0.5rem !important;
+    font-size: 12px !important;
+}
+
+.customer-handbook-group-product-item {
+    white-space: nowrap !important;
+    font-style: italic !important;
+    height: 21px !important;
+}
+
+.customer-handbook-block {
+    display: inline !important;
+}

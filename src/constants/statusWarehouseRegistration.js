@@ -1,0 +1,5 @@
+export const STATUS_REGISTRATION = {
+  WAITING: 1,
+  IN_PROGRESS: 2,
+  COMPLETE: 3
+}

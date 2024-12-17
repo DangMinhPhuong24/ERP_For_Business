@@ -1,0 +1,42 @@
+export const statisticWarehouseListState = (state) => state.warehouse.statisticWarehouseListState
+export const listWarehousesState = (state) => state.warehouse.listWarehouses
+export const totalPagesListWarehousesState = (state) => state.warehouse.totalPagesListWarehouses
+export const statisticWarehouseLocationListState = (state) => state.warehouse.statisticWarehouseLocationListState
+export const listWarehousesLocationState = (state) => state.warehouse.listWarehousesLocationState
+export const listAllWarehousesState = (state) => state.warehouse.listAllWarehousesState
+export const totalPagesListWarehousesLocationState = (state) => state.warehouse.totalPagesListWarehousesLocation
+export const productDetailState = (state) => state.warehouse.productDetailState
+export const updateProductConfigSuccessMessageState = (state) => state.warehouse.updateProductConfigSuccessMessage
+export const locationDetailState = (state) => state.warehouse.locationDetailState
+export const listProductByLocationIdState = (state) => state.warehouse.listProductByLocationIdState
+export const totalPagesListProductByLocationIdState = (state) => state.warehouse.totalPagesListProductByLocationId
+export const exportProductDataByLocationIdState = (state) => state.warehouse.exportProductDataByLocationId
+export const getDataExportFlagState = (state) => state.warehouse.getDataExportFlag
+export const createWarehouseLocationSuccessFlagState = (state) => state.warehouse.createWarehouseLocationSuccessFlag
+export const deleteLocationSuccessMessageState = (state) => state.warehouse.deleteLocationSuccessMessage
+export const updateLocationSuccessMessageState = (state) => state.warehouse.updateLocationSuccessMessage
+export const errorWarehouseLocationMessageState = (state) => state.warehouse.errorWarehouseLocationMessage
+export const getListAllWarehouseState = (state) => state.warehouse.getListAllWarehouseState
+export const createWarehouseSuccessFlagState = (state) => state.warehouse.createWarehouseSuccessFlag
+export const errorCreateWarehouseMessageState = (state) => state.warehouse.errorCreateWarehouseMessage
+export const detailWarehouseState = (state) => state.warehouse.detailWarehouseState
+export const updateWarehouseSuccessFlagState = (state) => state.warehouse.updateWarehouseSuccessFlag
+export const errorUpdateWarehouseMessageState = (state) => state.warehouse.errorUpdateWarehouseMessage
+export const deleteWarehouseSuccessFlagState = (state) => state.warehouse.deleteWarehouseSuccessFlag
+export const kanbanWarehouseImportOrdersState = (state) => state.warehouse.kanbanWarehouseImportOrdersState
+export const detailWarehouseImportOrdersState = (state) => state.warehouse.detailWarehouseImportOrdersState
+export const detailWarehouseExportOrdersState = (state) => state.warehouse.detailWarehouseExportOrdersState
+export const listWarehouseExportOrdersState = (state) => state.warehouse.listWarehouseExportOrdersState
+export const listFormationHistoryByProductState = (state) => state.warehouse.listFormationHistoryByProductState
+export const totalPagesListFormationHistoryByProductState = (state) =>
+  state.warehouse.totalPagesListFormationHistoryByProduct
+export const listOrderAlertState = (state) => state.warehouse.listOrderAlert
+export const totalPagesListOrderAlertState = (state) => state.warehouse.totalPagesListOrderAlert
+export const dataPieChartWarehouseTrafficState = (state) => state.warehouse.listDataPieChartWarehouseTraffic
+export const dataBarChartWarehouseTrafficState = (state) => state.warehouse.listDataBarChartWarehouseTraffic
+export const dataTopInventoryState = (state) => state.warehouse.listDataTopInventory
+export const dataLongestInventoryState = (state) => state.warehouse.listDataLongestInventory
+export const dataTableInventoryState = (state) => state.warehouse.listDataTableInventory
+export const totalPageTableInventoryState = (state) => state.warehouse.totalPageTableInventory
+export const listWarehouseExportQROrdersState = (state) => state.warehouse.listWarehouseExportQROrders
+

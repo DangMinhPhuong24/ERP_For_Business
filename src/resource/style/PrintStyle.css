@@ -1,0 +1,40 @@
+@media print {
+    @page {
+        size: A4;
+        margin: 100px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: initial !important;
+        overflow: initial !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        page-break-after: always;
+    }
+
+    .qr-code {
+        width: 500px !important;
+        height: auto !important;
+        max-width: 100% !important;
+    }
+
+    .qr-scan-text-print {
+        position: absolute;
+        font-size: 56px;
+        bottom: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media not print {
+    .qr-scan-text-print {
+        display: none;
+    }
+    .print-only {
+        display: none;
+    }
+}

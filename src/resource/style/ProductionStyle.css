@@ -1,0 +1,105 @@
+.root-order {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box-order{
+    display: grid;
+    align-content: space-between;
+    background-color: #FFFFFF;
+    width: 214px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.text-order-list{
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.title-statistical-production {
+    font-size: 14px !important;
+    line-height: 16.41px !important;
+    text-align: center;
+    height: 12px;
+}
+
+.text-order-list-one-line{
+    margin-top: 24px!important;
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.draggable-item {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.droppable-container {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.placeholder {
+    background-color: #e0e0e0;
+    border: 1px dashed #cccccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.draggable-item.active {
+    background-color: #f9f9f9;
+    border: 1px dashed #999999;
+}
+
+.box-order-manage-production{
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #FFFFFF;
+    width: 171px;
+    height: 94px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+/*Create Work Order*/
+.command-creation-page-title{
+    font-size: 14px !important;
+    line-height: 16.41px !important;
+    font-weight: bold !important;
+}
+
+/*Setting*/
+.setting-text,
+.setting-button {
+    font-size: 14px !important;
+    line-height: 16.41px !important;
+    /*padding-bottom: 16px !important;*/
+}
+.setting-button, .setting-button-save, .setting-button-cancel {
+    text-decoration: underline !important;
+    color: #1E88E5;
+    padding: 0 !important;
+    text-transform: none !important;
+}
+.setting-button-save {
+    color: #4CB050 !important;
+    font-weight: bold !important;
+    min-width: 30px !important;
+    padding-left: 8px !important;
+}
+.setting-button-cancel {
+    color: #FF0000 !important;
+    min-width: 30px !important;
+    padding-right: 8px !important;
+}

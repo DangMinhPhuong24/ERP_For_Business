@@ -1,0 +1,29 @@
+export const oderListState = (state) => state.oder.oderListState;
+export const oderDetailState = (state) => state.oder.oderDetailState;
+export const oderTotalPagesState = (state) => state.oder.totalPages;
+export const deleteOderSuccessMessageState = (state) => state.oder.deleteOderSuccessMessage;
+export const deleteOderErrorMessageState = (state) => state.oder.deleteOderErrorMessage;
+export const productByCustomerState = (state) => state.oder.productListState;
+export const adjustmentVoucherListState = (state) => state.oder.adjustmentVoucherListState;
+export const adjustmentVoucherTotalPagesState = (state) => state.oder.adjustmentVoucherTotalPages;
+export const createAdjustmentVoucherSuccessFlagState = (state) => state.oder.createAdjustmentVoucherSuccessFlag;
+export const errorsMessageCreateAdjustmentVoucherState = (state) => state.oder.errorCreateAdjustmentVoucherMessage;
+export const deleteAdjustmentVoucherSuccessMessageState = (state) => state.oder.deleteAdjustmentVoucherSuccessMessage;
+export const adjustmentVoucherDetailState = (state) => state.oder.adjustmentVoucherDetailState;
+export const updateAdjustmentVoucherSuccessFlagState = (state) => state.oder.updateAdjustmentVoucherSuccessFlag;
+export const errorsMessageUpdateAdjustmentVoucherState = (state) => state.oder.errorUpdateAdjustmentVoucherMessage;
+export const compensationVoucherListState = (state) => state.oder.compensationVoucherListState;
+export const compensationVoucherTotalPagesState = (state) => state.oder.compensationVoucherTotalPages;
+export const createCompensationVoucherSuccessFlagState = (state) => state.oder.createCompensationVoucherSuccessFlag;
+export const errorsMessageCompensationVoucherState = (state) => state.oder.errorCreateCompensationVoucherMessage;
+export const deleteCompensationVoucherSuccessMessageState = (state) => state.oder.deleteCompensationVoucherSuccessMessage;
+export const compensationVoucherDetailState = (state) => state.oder.compensationVoucherDetailState;
+export const updateCompensationVoucherSuccessFlagState = (state) => state.oder.updateCompensationVoucherSuccessFlag;
+export const errorsMessageUpdateCompensationVoucherState = (state) => state.oder.errorUpdateCompensationVoucherMessage;
+export const listKanbanOrderState = (state) => state.oder.listKanbanOrder;
+export const listAllBranchByCustomerIdState = (state) => state.oder.listAllBranchByCustomerId;
+export const listProductWarehouseByProductManagementIdState = (state) => state.oder.listProductWarehouseByProductManagementId;
+export const listAllProductWarehouseSuggestionState = (state) => state.oder.listAllProductWarehouseSuggestion;
+export const listAllManufactureFormState = (state) => state.oder.listAllManufactureForm;
+
+

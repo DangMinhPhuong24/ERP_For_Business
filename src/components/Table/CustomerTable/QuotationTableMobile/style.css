@@ -1,0 +1,143 @@
+.quote-date-picker .MuiInputBase-formControl {
+  height: 36px !important;
+  width: 150px !important;
+}
+
+.quote-date-picker .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.quote-container-table {
+  max-height: 62vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #dde1e5;
+}
+
+.quote-table-row-header .MuiTableCell-head {
+  padding: 0px 0px 0px 16px !important;
+}
+
+.quote-table-cell-header {
+  padding-left: 10px !important;
+}
+
+.quote-table-cell-header-flex {
+  display: flex;
+  align-items: 'center';
+  flex-direction: column;
+}
+
+.quote-input-edit-disabled .MuiOutlinedInput-notchedOutline {
+  border-radius: inherit !important;
+  border-style: solid !important;
+  border-width: 0px !important;
+}
+
+.quote-expand-cell-parent {
+  padding: 0px 0px 0px 16px !important;
+}
+
+.quote-input {
+  width: 70px;
+}
+
+.quote-note {
+  width: 100% !important;
+}
+
+.quote-input .MuiInputBase-formControl {
+  padding: 0 8px !important;
+}
+
+.quote-input .MuiInputBase-input {
+  margin: 0 !important;
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-weight: 400 !important;
+  color: #697883 !important;
+  font-size: 12px !important;
+  -webkit-text-fill-color: #697883 !important;
+  padding: 0px !important;
+}
+
+.quote-input textarea,
+.quote-input textarea::placeholder {
+  font-style: italic !important;
+  color: #697883 !important;
+}
+
+.quote-cell-checkbox {
+  width: 110px !important;
+  text-align: center !important;
+  padding: 0 !important;
+}
+
+.quote-expand-row-parent {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.quote-text-color {
+  color: #697883 !important;
+}
+
+.quote-text-label {
+  font-size: 12px !important;
+}
+
+.quote-cell-item.expanded {
+  border-bottom: none !important;
+}
+
+.quote-expand-row-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.quote-expand-cell-item {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.quote-expand-cell-flex {
+  display: flex !important;
+}
+
+.quote-expand-cell-item.quote-expand-cell-width {
+  width: 95px !important;
+}
+
+.quote-text-currency {
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.quote-text-no-result {
+  font-size: 14px;
+  text-align: center;
+}
+
+.quote-cell {
+  position: relative;
+}
+
+.quote-cell-code {
+  padding: 16px 8px !important;
+}
+
+.quote-cell-name {
+  padding: 0 !important;
+}
+
+.quote-box-down {
+  position: absolute;
+  left: 2.5rem;
+  bottom: -5%;
+}
+
+.quote-button-action {
+  box-shadow: none !important;
+}

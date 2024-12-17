@@ -1,0 +1,12 @@
+.warehouse-buttons{
+    font-size:16px !important;
+    font-weight:bold !important;
+    margin-right: 8px !important;
+    padding:8px 20px !important;
+    text-transform: none !important;
+    height: 40px;
+    line-height: 18.75px !important;
+}
+.warehouse-buttons:hover{
+    background-color:#D9D9D9 !important;
+}

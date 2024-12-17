@@ -1,0 +1,64 @@
+.claim-title {
+    font-size: 20px!important;
+    font-weight: 500!important;
+    line-height: 25.3px!important;
+    color: #202124 !important;
+    padding: 16px 16px 0 16px !important;
+}
+
+.cancel-claim-button {
+    width: 90px;
+    height: 40px;
+    color: #000000 !important;
+    border: 1px solid #AAAAAA;
+}
+
+.save-claim-button {
+    height: 40px;
+    color: #000000 !important;
+    margin-left: 12px !important;
+    background-color: #EFEFEF !important;
+    width: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.save-claim-button:hover {
+    background-color: #1976d2 !important;
+    color: #ffffff !important;
+}
+
+.button-claim-wrapper {
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.css-wgai2y-MuiFormLabel-asterisk {
+    color: red;
+}
+
+.text-label {
+    color: #494949 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    height: 14px;
+    line-height: 14.06px !important;
+    margin-bottom: 4px;
+}
+
+.input-style {
+    width: 583px !important;
+    border-radius: 8px;
+}
+
+.select-status {
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    height: 30px;
+    width: 231px;
+}
+.requiredTextField .MuiInputLabel-asterisk {
+    color: red;
+}
+{
+    padding:0 !important;
+}

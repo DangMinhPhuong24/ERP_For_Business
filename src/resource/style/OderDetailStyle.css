@@ -1,0 +1,335 @@
+.rootOder {
+    display: flex;
+    justify-content: center;
+    height: 96px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.result-letters-BOM {
+    align-self: flex-start !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #1E88E5 !important;
+}
+
+.label-info-BOM{
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+.text-table-header-BOM{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    text-align: center!important;
+}
+
+.boxOderFirst {
+    background: #D9D9D9;
+    width: 214px!important;
+    height: 96px;
+    top: 149px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.boxOder {
+    background: #D9D9D9;
+    width: 214px!important;
+    height: 96px;
+    top: 149px;
+    left: 140px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: auto;
+    margin-top: 20px;
+    width: 573px;
+    height: auto;
+}
+
+.table-container-value2 {
+    overflow-x: auto;
+    margin-top: 20px;
+    width: 573px;
+    height: auto;
+    max-height: 70vh;
+}
+
+
+.table-container111 {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.cell-with-border {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 90px;
+    height: 59px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    text-align: center;
+}
+
+.uppercaseTh {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 140px;
+    height: 59px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    text-align: center;
+
+}
+
+.specificationsTh {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 175px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    text-align: center;
+}
+
+.slTh {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 60px;
+    height: 59px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    text-align: center;
+
+}
+
+.standardTh {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 88px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+}
+
+.machiningTh {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 88px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+}
+
+.table-header-cell {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 88px;
+    height: 30px;
+    font-weight: normal;
+}
+
+.table-cell {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 140px;
+    height: 59px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    text-align: center;
+
+}
+
+.another-table-cell {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 60px;
+    height: 59px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    text-align: center;
+
+}
+
+.custom-table-cell {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 90px;
+    height: 59px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    text-align: center;
+}
+
+.custom-table-header {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 214px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+
+}
+
+.customCell {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    width: 238px;
+    height: 30px;
+    text-align: right;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+}
+
+.customerInfoItem {
+    font-weight: 400!important;
+    font-size: 12px!important;
+}
+
+.myButton {
+    font-size: 12px !important;
+    font-weight: 700!important;
+    text-decoration: underline!important;
+    text-transform: none!important;
+    color: #3498db!important;
+}
+
+.error-input {
+    border: 1px solid red;
+}
+
+.tab-order-wrapper {
+    width: 100% !important;
+    border-bottom: 1px solid !important;
+    border-color: rgba(0, 0, 0, 0.12) !important;
+    margin-top: 2px !important;
+}
+
+.tabOrderList{
+    display: flex;
+    justify-content: space-between !important;
+    min-height: 30px !important;
+    height: 30px !important;
+}
+
+.button-tab-selected-small {
+    font-weight: 700 !important;
+    background-color: #1E5BF0 !important;
+    color: white !important;
+    width: 118px !important;
+    min-height: 30px !important;
+    padding: 10px!important;
+    border-radius: 8px 8px 0px 0px !important;
+    white-space: unset !important;
+    text-transform: none!important;
+    line-height: 17.71px !important;
+    height: 30px !important;
+    margin-right: 6px !important;
+}
+
+.button-tabs{
+    background-color: #F3F7FF !important;
+    color: #252F4A !important;
+    padding: 10px !important;
+    text-transform: none !important;
+    margin-right: 6px !important;
+    border-radius: 8px 8px 0px 0px !important;
+    white-space: unset !important;
+    line-height: 17.71px !important;
+    min-height: 30px !important;
+    height: 30px;
+    font-weight: 400 !important;
+}
+
+.button-tab-unselected-small {
+    font-weight: 400 !important;
+    background-color: #F3F7FF !important;
+    width: 118px !important;
+    min-height: 30px !important;
+    padding: 10px!important;
+    border-radius: 8px 8px 0px 0px !important;
+    white-space: unset !important;
+    text-transform: none!important;
+    line-height: 17.71px !important;
+    height: 30px !important;
+    margin-right: 6px !important;
+}
+
+.button-tab-selected-long {
+    font-weight: 700 !important;
+    background-color: #1E5BF0 !important;
+    color: white !important;
+    width: 130px !important;
+    min-height: 30px !important;
+    padding: 10px!important;
+    border-radius: 8px 8px 0px 0px !important;
+    white-space: unset !important;
+    text-transform: none!important;
+    line-height: 17.71px !important;
+    height: 30px !important;
+    margin-right: 6px !important;
+}
+
+.button-tab-unselected-long {
+    font-weight: 400 !important;
+    background-color: #F3F7FF !important;
+    width: 130px !important;
+    min-height: 30px !important;
+    padding: 10px!important;
+    border-radius: 8px 8px 0px 0px !important;
+    white-space: unset !important;
+    text-transform: none!important;
+    line-height: 17.71px !important;
+    height: 30px !important;
+    margin-right: 6px !important;
+}
+
+.MuiPaper-root.MuiTableContainer-root{
+    box-shadow: none!important;
+    border: 1px solid #DDE1E6;
+    border-radius: 8px;
+}
+
+.MuiButtonBase-root.MuiTab-root.Mui-selected {
+    font-weight: 700 !important;
+    background-color: #1E5BF0 !important;
+    color: #FFFFFF !important;
+}
